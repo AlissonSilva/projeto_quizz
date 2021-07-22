@@ -92,6 +92,27 @@ const questions = [
         'correct': false
       }
     ]
+  },
+  {
+    'question': 'Para concatenar a string "TRF" com a variável reg que contém o valor inteiro 3, em Java e PHP, utilizam-se, respectivamente,',
+    'answers': [
+      {
+        'answer': 'String("TRF")+reg e str("TRF").$reg',
+        'correct': false
+      },
+      {
+        'answer': ' "TRF",reg e Concat("TRF",$reg)',
+        'correct': false
+      },
+      {
+        'answer': '"TRF"+reg e "TRF".$reg',
+        'correct': true
+      },
+      {
+        'answer': 'String.Concat("TRF",reg) e "TRF"+$reg',
+        'correct': false
+      }
+    ]
   }
 ];
 
